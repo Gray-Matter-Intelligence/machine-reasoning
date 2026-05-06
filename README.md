@@ -29,7 +29,7 @@ Map natural language, **peer reviewed** information (from textbook chapters, tec
 
 Some interesting work related to information extraction
  
- * [Babelscape/rebel-large · Hugging Face](https://huggingface.co/Babelscape/rebel-large), referenced in [this article](https://towardsdatascience.com/extract-knowledge-from-text-end-to-end-information-extraction-pipeline-with-spacy-and-neo4j-502b2b1e0754)
+ * [Babelscape/rebel-large · Hugging Face](https://huggingface.co/Babelscape/rebel-large), referenced in [this article](https://medium.com/data-science/extract-knowledge-from-text-end-to-end-information-extraction-pipeline-with-spacy-and-neo4j-502b2b1e0754)
 
  * Use of [SpaCy entity, dependency and noun chunk extraction]() to augment and improve quality of extraction
 
