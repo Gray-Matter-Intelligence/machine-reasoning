@@ -1,5 +1,6 @@
 import pymupdf
 
+# TODO: Update to choose engine based on config
 def importPdf_pymupdf(file_path: str) -> str:
     """
     Function to import a single PDF file and return its text content as a string
