@@ -2,3 +2,5 @@ pymupdf
 pyyaml
 typedb-driver
 pytest
+pydantic
+sentence-transformers
