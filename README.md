@@ -58,3 +58,67 @@ flowchart TD
     E --> F(Map Subject & Object to standard entities e.g. WikiData)
     F --> G(Lookup relation in standard relations e.g. TBD Ontology)
 ```
+
+# System Components
+
+Below are that components or the functions of this project
+
+## Sentence To Standardised Triplets
+
+### Why was ths function even created?
+### What does the function do?
+```python
+def sentence_to_standard_triplets
+    """
+    Convert a sentence into standardized knowledge triplets using
+    contextual information and external knowledge sources.
+
+    The function extracts semantic relationships from natural language
+    text and represents them as structured triplets in the form:
+
+        (subject, relation, object)
+
+    Domain-specific understanding is supported through textbook-derived
+    knowledge, while general-world concepts and entities are enriched
+    using Wikidata information.
+
+    Args:
+        sentence (str):
+            The input sentence to analyze and convert into triplets.
+
+        context (str):
+            Additional contextual text such as surrounding sentences,
+            paragraphs, or documents that help resolve meaning,
+            references, and entity relationships.
+
+        textbook_data (dict):
+            Structured domain knowledge extracted from textbooks or
+            curated educational sources. Used for domain-specific
+            terminology, definitions, and relationships.
+
+        wikidata_data (dict):
+            General-purpose world knowledge obtained from Wikidata,
+            including entities, aliases, categories, and relationships.
+
+    Returns:
+        list[tuple[str, str, str]]:
+            A list of standardized semantic triplets where each triplet
+            is represented as:
+
+                (subject, relation, object)
+
+            Example:
+                [
+                    ("Newton", "developed", "Laws of Motion"),
+                    ("Force", "is_related_to", "Mass")
+                ]
+
+    Raises:
+        ValueError:
+            If the input sentence is empty or invalid.
+
+        TypeError:
+            If any input argument has an unexpected type.
+    """
+    
+```
